@@ -1,4 +1,3 @@
-// You 've used 82% of your storage. … If you run out of storage, you won' t be able to upload new files.Learn more
 //  Arduino Smart Charger / Discharger - Offline
 //  Version 1.0.0
 //  ---------------------------------------------------------------------------
