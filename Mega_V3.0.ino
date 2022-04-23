@@ -548,12 +548,12 @@ void cycleStateValues()
         module[i].cycleCount = 0;                      // Reset cycleCount for use in other Cycles
       }
       break;
-    case 9:                                                                // bring to life
-      module[i].batteryVoltage = readVoltage(module[i].batteryVolatgePin); // Get battery voltage
-      if (module[i].testing)
-      {
-        tryChargingDead(i);
-      }
+    case 9: // bring to life
+      // module[i].batteryVoltage = readVoltage(module[i].batteryVolatgePin); // Get battery voltage
+      // if (module[i].testing)
+      // {
+      //   tryChargingDead(i);
+      // }
       if (processTemperature(i) == 2)
       {
         // Battery Temperature is >= MAX Threshold considered faulty
@@ -565,6 +565,11 @@ void cycleStateValues()
       }
       else
       {
+        if (module[i].start == 0)
+        {
+          module[i].start = millis();
+        }
+
         digitalWrite(module[i].chargeMosfetPin, 1); // Turn on TP4056
         module[i].cycleCount = module[i].cycleCount + chargeCycle(i);
         if (module[i].cycleCount >= 5)
