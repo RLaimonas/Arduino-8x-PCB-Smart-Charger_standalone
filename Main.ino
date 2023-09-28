@@ -1,4 +1,3 @@
-//You 've used 82% of your storage. … If you run out of storage, you won' t be able to upload new files.Learn more
 // Arduino Smart Charger / Discharger - Offline
 // Version 1.0.0
 // ---------------------------------------------------------------------------
@@ -13,6 +12,10 @@
 //
 // @author Email: info@vortexit.co.nz
 //       Web: www.vortexit.co.nz
+//
+// ---------------------------------------------------------------------------
+// Last Modified by Laimonas Ramanauskas on 01/28/2020
+// Caution: This project is incomplete and contains unresolved critical bugs.
 
 // Include Libraries
 #include <Wire.h> // Comes with Arduino IDE
