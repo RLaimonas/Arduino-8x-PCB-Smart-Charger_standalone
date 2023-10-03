@@ -9,7 +9,7 @@ This is the Arduino 8x 18650 Smart Charger / Discharger Code
 
 Current implementation: TP4056, Rotary Encoder KY-040 Module, Temp Sensor DS18B20 Ethernet Module W5500, Mini USB Host Shield (Barcode Scanner), LCD 2004 20x4 with IIC/I2C/TWI Serial, Discharge (MilliAmps and MillOhms)
 
-Link: https://github.com/wahspilihp/Arduino7x-PCB-Smart-Charger-Discharger-With-Impedance-Meter.git  
+Link: https://github.com/brettwatty/Arduino-8x-PCB-Smart-Charger-Discharger
 Email: info@vortexit.co.nz Web: www.vortexit.co.nz
 
 
